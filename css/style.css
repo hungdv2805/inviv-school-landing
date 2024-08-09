@@ -18468,7 +18468,7 @@ b,strong {
     /* border-color: #1ba4b1;
     background-color: #1ba4b1;
     color: #fff */
-    color: currentColor;
+    color: #fff;
     -webkit-box-shadow: 0 8px 25px -8px rgba(var(--vs-primary), 1);
     box-shadow: 0 8px 25px -8px rgba(var(--vs-primary), 1);
 }
@@ -19828,13 +19828,15 @@ body div.wpcf7-validation-errors,body div.wpcf7-acceptance-missing {
 
 @media only screen and (min-width: 1200px) {
     .banner-img {
-        right:-100px
+        right:-150px;
     }
+    .banner-img img{max-width: 78%;}
 }
 @media only screen and (min-width: 1500px) {
     .banner-img {
         right:-200px
     }
+    .banner-img img{max-width: 100%;}
 }
 .section-features {
     margin-bottom: 35px
