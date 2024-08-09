@@ -19741,7 +19741,8 @@ body div.wpcf7-validation-errors,body div.wpcf7-acceptance-missing {
 }
 
 .section-banner {
-    background-image: url(../images/bg-banner2.jpg);
+    /* background-image: url(../images/bg-banner3.jpg); */
+    background-image: radial-gradient(at 0% 0%, rgba(var(--vs-primary), .8) 0px, transparent 90%), radial-gradient(at 98% 0%, rgba(var(--vs-primary)) 0px, transparent 90%);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
@@ -19821,16 +19822,20 @@ body div.wpcf7-validation-errors,body div.wpcf7-acceptance-missing {
         max-width:56.89655%;
         position: absolute;
         right: 0;
-        bottom: -40px
+        bottom: 80px
     }
 }
 
 @media only screen and (min-width: 1200px) {
     .banner-img {
-        right:-62px
+        right:-100px
     }
 }
-
+@media only screen and (min-width: 1500px) {
+    .banner-img {
+        right:-200px
+    }
+}
 .section-features {
     margin-bottom: 35px
 }
@@ -19840,6 +19845,7 @@ body div.wpcf7-validation-errors,body div.wpcf7-acceptance-missing {
         margin-bottom:130px
     }
 }
+
 
 .feature-item {
     text-align: center;
@@ -24530,6 +24536,40 @@ div.addthis_toolbox br {
     box-shadow: 0 0 12px rgb(0 0 0 / 12%);
 }
 
+.w-100{width:100%}
+.rounded-10{border-radius: 10px;}
+.rounded-20{border-radius: 20px;}
+
+.free-content{
+    padding:1.5rem;
+    gap:20px;
+    max-width:800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title-heaing2{
+    margin-bottom: 15px;
+    color: #1c1b20;
+    font-weight: 800;
+}
+.row2{margin-top:-30px}
+.row2 >div{margin-top:30px}
+.student-manager-item{padding:20px;display: flex; flex-direction: column;box-shadow: 0 4px 10px rgb(0 0 0 / 12%);height: 100%;transition: all .3s ease;}
+.student-manager-image {
+    flex: 1;
+}
+.student-manager-item img{
+  max-width: 80%;margin:0 auto;
+}
+.student-manager-title{
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+.student-manager-item:hover{transform: translateY(-10px);}
+.image-pad-deviced img{
+    max-width: 60%;
+    margin: 0 auto;
+}
 @media(min-width:992px){
     .application-item{
         padding:40px;
@@ -24545,4 +24585,5 @@ div.addthis_toolbox br {
 @media(max-width:767px){
     .section-product .row+.row{margin-top: 80px;}
     .section-product .row div:nth-child(2) {margin-top:30px}
+    .free-content{flex-direction: column;}
 }
