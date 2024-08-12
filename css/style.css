@@ -19830,7 +19830,13 @@ body div.wpcf7-validation-errors,body div.wpcf7-acceptance-missing {
     .banner-img {
         right:-50px;
     }
-    .banner-img img{max-width: 78%;}
+    .banner-img img{max-width: 60%;}
+}
+@media only screen and (min-width: 1360px) {
+    .banner-img {
+        right:-80px;
+    }
+    .banner-img img{max-width: 65%;}
 }
 @media only screen and (min-width: 1500px) {
     .banner-img {
