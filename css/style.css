@@ -19834,7 +19834,7 @@ body div.wpcf7-validation-errors,body div.wpcf7-acceptance-missing {
 }
 @media only screen and (min-width: 1360px) {
     .banner-img {
-        right:-80px;
+        right:-65px;
     }
     .banner-img img{max-width: 65%;}
 }
